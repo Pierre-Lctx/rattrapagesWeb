@@ -1,0 +1,68 @@
+body /*Définition des règles que l'on applique à body*/
+{
+    max-width: 1440px;
+    font-family: 'Roboto','sans-serif';
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 98vw;
+}
+h2 
+{
+    font-size: 2vw;
+}
+#information
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7vw;
+}
+#generic
+{
+    margin-top: 2%;
+}
+.general_information , .specific_information
+{
+    margin-bottom: 10px;
+}
+.specific_information
+{
+    margin-left: 20px;
+}
+a /*Style du lien*/
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1% 2%;
+}
+#button /*style du form*/
+{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#back /*Style de l'entourage du lien*/
+{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    box-shadow: 0px 5px 10px rgb(200, 200, 200);
+}
+#back:hover /*lien au survol*/
+{
+    filter: brightness(110%);
+}
+@media screen and (max-width:481px) {
+    h2 
+    {
+        font-size: 5vw;
+    }
+    #information
+    {
+        font-size: 5vw;
+    }
+}

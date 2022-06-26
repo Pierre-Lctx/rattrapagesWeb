@@ -1,0 +1,10 @@
+#Nous démarrons le moteur de réécriture
+
+RewriteEngine On
+
+#Nous allons réécrir l'url
+#Nous autorisons toutes les lettres minuscules et majuscules, ainsi que les chiffres et les tirés, les underscores et les slash
+#Ensuite nous redirigeons vers index.php en mettant les paramètres
+#Ensuite avec le $1, nous mettons le premier groupe de réécriture
+
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?p=$1

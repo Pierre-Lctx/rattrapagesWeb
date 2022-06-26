@@ -1,0 +1,88 @@
+body /*Définition des règles que l'on applique à body*/
+{
+    max-width: 1440px;
+    font-family: 'Roboto','sans-serif';
+    margin: auto;
+}
+a /*Style du lien*/
+{
+    text-decoration: none;
+    color: white;
+    padding: 0.5% 1.5%;
+}
+#button
+{
+    margin: 3% 1%;
+}
+#back /*Style de l'entourage du lien*/
+{
+    text-align: center;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    box-shadow: 0px 5px 10px rgb(200, 200, 200);
+}
+#back:hover
+{
+    filter: brightness(110%);
+}
+.form-example
+{
+    margin: 1%;
+}
+.modify
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: -23px;
+    margin-left: 200px;
+}
+#change
+{
+    cursor: pointer;
+    color: white;
+    padding: 0.5% 1.5%;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    box-shadow: 0px 5px 10px rgb(200, 200, 200);
+    border: none;
+}
+#change:hover
+{
+    filter: brightness(110%);
+}
+@media screen and (max-width:481px) {
+    a 
+    {
+        padding: 1.5% 2.5%;
+    }
+    #button 
+    {
+        margin: 5% 0% 10% 2%;
+    }
+    .form-example
+    {
+    margin: 5% 2%; 
+    }
+    .modify
+    {
+        margin-top: -18px;
+        margin-left: 180px;
+    }
+    #button_change
+    {
+        text-align: center;
+    }
+    #change
+    {
+        padding: 1.5% 2.5%;
+    }
+}
+@media screen and (max-width:350px) {
+    .modify
+    {
+        margin-top: -18px;
+        margin-left: 180px;
+        max-width: 110px;
+    }
+}
