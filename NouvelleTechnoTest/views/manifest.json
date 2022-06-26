@@ -13,6 +13,6 @@
         }
     ],
     "id": "home.html",
-    "start_url": "index.php",
+    "start_url": "default.php",
     "display": "standalone"
 }
